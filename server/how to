@@ -1,0 +1,22 @@
+ติดตั้งตามนี้
+npm init -y 
+ npm install express body-parser
+ npm install -g nodemon
+
+ สร้างโฟลเดอร์และไฟล์ให้ครบ
+
+ รัน
+ nodemon app.js 
+
+ ไป postman
+ ใส่ http://localhost:3000/calculate-bmi
+
+ Go to the "Body" tab, select "raw," and set the request body to JSON. Add the following JSON data to the request body
+ พิมพ์ตามนี้เข้าไป 
+ {
+  "weight": 70,
+  "height": 1.75
+}
+กดsend
+
+
